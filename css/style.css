@@ -1,0 +1,67 @@
+/* import google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap');
+
+/* start the styles here */
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    background-color: #E5E5E5;
+}
+h1{
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 78px;
+}
+p{
+    margin-top: 50px;
+}
+.tomato-color{
+    color: orange;
+}
+.top-banner{
+    display: flex;
+    align-items: flex-start;
+}
+.banner-half{
+    width: 50%;
+    margin: 50px 100px;
+    padding: 0 100px;
+}
+.banner-half img{
+    width: 100%;
+}
+.click-button{
+    margin-top: 50px;
+}
+.click-button a{
+    text-decoration: none;
+    background-image: linear-gradient(tomato, orange);
+    color: white;
+    border-radius: 20px;
+    padding: 20px 45px;
+    border: 1 px solid;
+}
+/* start about me section */
+.about-me{
+    background-image: url(../images/shapes/Frame\ 58.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+}
+.about-half{
+    width: 50%;
+    margin-top: 100px;
+    padding: 0 150px;
+}
+.about-half img{
+    width: 80%;
+    height: 536px;
+    width: 338px;
+    margin-left: 200px;
+}
